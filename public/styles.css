@@ -1,0 +1,146 @@
+body{
+    background-color: #222222;
+}
+#container{
+    position: relative;
+    min-height: 100vh;
+}
+
+#header{
+    border: 1px solid rgb(136, 126, 192);
+    display: flex;
+    color: white;
+}
+
+h1{
+    margin-left: 15px;
+}
+
+#title-div{
+    width: 90%;
+}
+
+#button-div{
+    margin-top: 25px;
+}
+
+#app-content{
+    padding-bottom: 60px;
+}
+
+#create-button, #update-button, #createtask-button{
+    margin-right: 10px;
+    background-color: rgb(36, 52, 202);
+    color: white;
+}
+#cancel-button, #exit-button{
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+
+#tasks-button{
+    background-color: rgb(23, 68, 37);
+    color: white;
+}
+
+#footer{
+    background-color: rgb(80, 80, 80);
+    color: white;
+    position: absolute;
+    clear: both;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    padding-top:2px;
+    padding-bottom: 2px;
+}
+
+/*Login, Register form and Tasks List*/
+.form-container, .task-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.form-content, .task-content{
+    border: 1px solid rgb(136, 126, 192);
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.inputBox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.inputBox label {
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#login-button, #register-button{
+    margin-left: 10px;
+}
+
+.inputBox#buttons {
+    margin-top: 20px;
+}
+
+input[type="submit"]{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button:hover, .submit-button:hover {
+    cursor: pointer;
+}
+
+/* Cuadro de Tareas */
+#createtask-button, #tasks-button{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.description-title{
+    width: 300px;
+    word-wrap: break-word;
+}
+
+.edit-button{
+    margin-right: 10px;
+    background-color: rgb(223, 223, 150);
+}
+
+.delete-button{
+    margin-right: 10px;
+    background-color: rgb(158, 95, 95);
+    color: white;
+}
+
+/*Mensaje de error*/
+.error{
+    margin: 5px;
+    padding-left: 5px;
+    border: 1px solid #9b1e1e;
+    border-radius: 5px;
+    color: #ce8080;
+}
